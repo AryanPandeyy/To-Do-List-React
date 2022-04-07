@@ -1,26 +1,117 @@
-Info 0    [16:22:36.235] Starting TS Server
-Info 1    [16:22:36.237] Version: 4.6.3
-Info 2    [16:22:36.237] Arguments: /usr/bin/node /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/ap/ARYAN/WEB/my-app/src/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/47f89cef0010ed66ade053984dc32f76/tscancellation*
-Info 3    [16:22:36.237] Platform: linux NodeVersion: 17 CaseSensitive: true
-Info 4    [16:22:36.237] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [16:22:36.301] Format host information updated
-Info 6    [16:22:36.367] Search path: /home/ap/ARYAN/WEB/my-app/src
-Info 7    [16:22:36.377] For info: /home/ap/ARYAN/WEB/my-app/src/App.js :: No config files found.
-Info 8    [16:22:36.431] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 9    [16:23:03.636] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 27203.73366600275ms
-Info 10   [16:23:03.637] Project '/dev/null/inferredProject1*' (Inferred)
-Info 11   [16:23:03.638] 	Files (522)
+Info 0    [16:33:40.787] Starting TS Server
+Info 1    [16:33:40.788] Version: 4.6.3
+Info 2    [16:33:40.788] Arguments: /usr/bin/node /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/ap/ARYAN/WEB/my-app/src/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/4fe09c380d968dba5506a9d559d0d209/tscancellation*
+Info 3    [16:33:40.788] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [16:33:40.788] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:33:40.857] Format host information updated
+Info 6    [16:33:41.003] Search path: /home/ap/ARYAN/WEB/my-app/src
+Info 7    [16:33:41.020] For info: /home/ap/ARYAN/WEB/my-app/src/App.js :: No config files found.
+Info 8    [16:33:41.097] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [16:34:07.239] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 26140.12453199923ms
+Info 10   [16:34:07.240] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [16:34:07.241] 	Files (522)
 
-Info 12   [16:23:03.638] -----------------------------------------------
-Info 13   [16:23:03.772] AutoImportProviderProject: found 7 root files in 7 dependencies in 107.49450799822807 ms
-Info 14   [16:23:03.787] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 15   [16:23:05.049] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1262.1943349987268ms
-Info 16   [16:23:05.050] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 17   [16:23:05.050] 	Files (134)
+Info 12   [16:34:07.241] -----------------------------------------------
+Info 13   [16:34:07.363] AutoImportProviderProject: found 7 root files in 7 dependencies in 96.4119849987328 ms
+Info 14   [16:34:07.371] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [16:34:08.502] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1130.4309090003371ms
+Info 16   [16:34:08.503] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [16:34:08.503] 	Files (134)
 
-Info 18   [16:23:05.050] -----------------------------------------------
-Info 19   [16:23:35.723] DirectoryWatcher:: Triggered with /home/ap/ARYAN/WEB/my-app/src/.#App.js :: WatchInfo: /home/ap/ARYAN/WEB/my-app/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 20   [16:23:35.724] Elapsed:: 0.9793689996004105ms DirectoryWatcher:: Triggered with /home/ap/ARYAN/WEB/my-app/src/.#App.js :: WatchInfo: /home/ap/ARYAN/WEB/my-app/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
-Info 21   [16:23:35.929] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
-Info 22   [16:23:36.088] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 158.62580899894238ms
-Info 23   [16:23:36.090] Different program with same set of files
+Info 18   [16:34:08.503] -----------------------------------------------
+Info 19   [16:34:35.602] Finding references to /home/ap/ARYAN/WEB/my-app/src/App.js position 98 in project /dev/null/inferredProject1*
+Info 20   [16:34:35.987] Search path: /home/ap/ARYAN/WEB/my-app/node_modules/@material-ui/core/styles
+Info 21   [16:34:35.988] For info: /home/ap/ARYAN/WEB/my-app/node_modules/@material-ui/core/styles/index.d.ts :: No config files found.
+Info 22   [16:34:59.589] DirectoryWatcher:: Triggered with /home/ap/ARYAN/WEB/my-app/src/.#App.js :: WatchInfo: /home/ap/ARYAN/WEB/my-app/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 23   [16:34:59.591] Elapsed:: 1.2802869975566864ms DirectoryWatcher:: Triggered with /home/ap/ARYAN/WEB/my-app/src/.#App.js :: WatchInfo: /home/ap/ARYAN/WEB/my-app/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 24   [16:34:59.796] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 25   [16:35:00.596] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 799.9080599993467ms
+Info 26   [16:35:00.596] Different program with same set of files
+Info 27   [16:35:13.787] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 28   [16:35:13.971] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 183.72512800246477ms
+Info 29   [16:35:13.972] Different program with same set of files
+Info 30   [16:35:13.973] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 31   [16:35:14.140] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 166.1748289987445ms
+Info 32   [16:35:14.140] Different program with same set of files
+Info 33   [16:35:14.250] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 34   [16:35:14.384] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 133.77463399991393ms
+Info 35   [16:35:14.385] Different program with same set of files
+Err 36    [16:35:27.986] Exception on executing command {"command":"getCodeFixes","seq":233,"type":"request","arguments":{"file":"/home/ap/ARYAN/WEB/my-app/src/App.js","startLine":91,"startOffset":6,"endLine":91,"endOffset":6,"errorCodes":[6133]}}:
+
+    BADCLIENT: Bad error code, 6133 not found in range 2719..2719 (found: false); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+
+    Error: BADCLIENT: Bad error code, 6133 not found in range 2719..2719 (found: false); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+        at Object.cast (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:1500:25)
+        at deleteTypeParameters (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:152668:65)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:152539:100
+        at Function.ChangeTracker.with (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:145719:17)
+        at Object.getCodeActions (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:152539:68)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:146964:77
+        at Object.flatMap (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getFixes (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:146964:23)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:162191:35
+        at Object.flatMap (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getCodeFixesAtPosition (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:162189:23)
+        at IOSession.Session.getCodeFixes (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:173756:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:172389:61)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174069:88
+        at IOSession.Session.executeWithRequestId (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174060:28)
+        at IOSession.Session.executeCommand (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174069:33)
+        at IOSession.Session.onMessage (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174095:35)
+        at Interface.<anonymous> (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:176700:31)
+        at Interface.emit (node:events:527:28)
+        at Interface.[_onLine] [as _onLine] (node:internal/readline/interface:418:12)
+        at Interface.[_normalWrite] [as _normalWrite] (node:internal/readline/interface:607:59)
+        at Socket.ondata (node:internal/readline/interface:248:23)
+        at Socket.emit (node:events:527:28)
+        at addChunk (node:internal/streams/readable:324:12)
+        at readableAddChunk (node:internal/streams/readable:297:9)
+        at Socket.Readable.push (node:internal/streams/readable:234:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Err 37    [16:35:28.004] Exception on executing command {"command":"getCodeFixes","seq":235,"type":"request","arguments":{"file":"/home/ap/ARYAN/WEB/my-app/src/App.js","startLine":91,"startOffset":6,"endLine":91,"endOffset":6,"errorCodes":[6133]}}:
+
+    BADCLIENT: Bad error code, 6133 not found in range 2719..2719 (found: false); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+
+    Error: BADCLIENT: Bad error code, 6133 not found in range 2719..2719 (found: false); could have caused this error:
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isDeclarationWithTypeParameterChildren'.
+        at Object.cast (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:1500:25)
+        at deleteTypeParameters (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:152668:65)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:152539:100
+        at Function.ChangeTracker.with (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:145719:17)
+        at Object.getCodeActions (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:152539:68)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:146964:77
+        at Object.flatMap (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getFixes (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:146964:23)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:162191:35
+        at Object.flatMap (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:508:25)
+        at Object.getCodeFixesAtPosition (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:162189:23)
+        at IOSession.Session.getCodeFixes (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:173756:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:172389:61)
+        at /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174069:88
+        at IOSession.Session.executeWithRequestId (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174060:28)
+        at IOSession.Session.executeCommand (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174069:33)
+        at IOSession.Session.onMessage (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:174095:35)
+        at Interface.<anonymous> (/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js:176700:31)
+        at Interface.emit (node:events:527:28)
+        at Interface.[_onLine] [as _onLine] (node:internal/readline/interface:418:12)
+        at Interface.[_normalWrite] [as _normalWrite] (node:internal/readline/interface:607:59)
+        at Socket.ondata (node:internal/readline/interface:248:23)
+        at Socket.emit (node:events:527:28)
+        at addChunk (node:internal/streams/readable:324:12)
+        at readableAddChunk (node:internal/streams/readable:297:9)
+        at Socket.Readable.push (node:internal/streams/readable:234:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Info 38   [16:35:28.024] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 39   [16:35:28.207] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 183.1728170029819ms
+Info 40   [16:35:28.207] Different program with same set of files
+Info 41   [16:35:28.211] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 42   [16:35:28.291] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 79.64783700183034ms
+Info 43   [16:35:28.291] Different program with same set of files
+Info 44   [16:35:28.328] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 45   [16:35:28.425] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 96.38090599700809ms
+Info 46   [16:35:28.425] Different program with same set of files
+Info 47   [16:35:51.309] DirectoryWatcher:: Triggered with /home/ap/ARYAN/WEB/my-app/src/.#App.js :: WatchInfo: /home/ap/ARYAN/WEB/my-app/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 48   [16:35:51.309] Elapsed:: 0.07641399651765823ms DirectoryWatcher:: Triggered with /home/ap/ARYAN/WEB/my-app/src/.#App.js :: WatchInfo: /home/ap/ARYAN/WEB/my-app/src 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations

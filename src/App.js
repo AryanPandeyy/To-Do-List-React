@@ -1,6 +1,5 @@
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
-import { styled } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import SendIcon from '@material-ui/icons/Send';
 import { Typography, AppBar, CssBaseline, Toolbar, Grid, Container } from '@material-ui/core';
@@ -22,7 +21,7 @@ function App() {
 			todo: newWork,
 		}
 		var value = true;
-		work.forEach((x, i) => {
+		work.forEach((x) => {
 			if (x.todo === valueWork.todo) {
 				value = false;
 			}
@@ -88,7 +87,7 @@ function App() {
 							<Grid container spacing={2} justify='center'>
 								<Grid item>
 									<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-										{work.map((wor, i) => (
+										{work.map((wor) => (
 											<ListItem
 												key={wor.todo}
 												disableGutters

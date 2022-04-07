@@ -1,0 +1,35 @@
+[20:49:02.682] Global cache location '/home/ap/.cache/typescript/4.6', safe file path '/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[20:49:02.684] Processing cache location '/home/ap/.cache/typescript/4.6'
+[20:49:02.685] Trying to find '/home/ap/.cache/typescript/4.6/package.json'...
+[20:49:02.687] Loaded content of '/home/ap/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.586"}}
+[20:49:02.687] Loaded content of '/home/ap/.cache/typescript/4.6/package-lock.json'
+[20:49:02.688] Finished processing cache location '/home/ap/.cache/typescript/4.6'
+[20:49:02.689] Process id: 8223
+[20:49:02.689] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[20:49:02.689] validateDefaultNpmLocation: false
+[20:49:02.690] Npm config file: /home/ap/.cache/typescript/4.6/package.json
+[20:49:02.691] Updating types-registry npm package...
+[20:49:02.691] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[20:49:04.904]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 2s
+
+found 0 vulnerabilities
+
+[20:49:04.904] Updated types-registry npm package
+[20:49:15.105] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ap/ARYAN/WEB/my-app/src/App.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/ap/ARYAN/WEB/my-app/src","kind":"discover"}
+[20:49:15.203] Loaded safelist from types map file '/home/ap/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[20:49:15.205] Explicitly included types: []
+[20:49:15.208] Inferred typings from unresolved imports: []
+[20:49:15.209] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/ap/ARYAN/WEB/my-app/src/bower_components","/home/ap/ARYAN/WEB/my-app/src/node_modules"]}
+[20:49:15.209] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/ap/ARYAN/WEB/my-app/src/bower_components","/home/ap/ARYAN/WEB/my-app/src/node_modules"]}
+[20:49:15.210] DirectoryWatcher:: Added:: WatchInfo: /home/ap/ARYAN/WEB/my-app/src/bower_components
+[20:49:15.212] DirectoryWatcher:: Added:: WatchInfo: /home/ap/ARYAN/WEB/my-app/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:49:15.218] Elapsed:: 5.409092999994755ms DirectoryWatcher:: Added:: WatchInfo: /home/ap/ARYAN/WEB/my-app/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:49:15.218] DirectoryWatcher:: Added:: WatchInfo: /home/ap/ARYAN/WEB/my-app/src/node_modules
+[20:49:15.218] DirectoryWatcher:: Added:: WatchInfo: /home/ap/ARYAN/WEB/my-app/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:49:15.219] Elapsed:: 0.45986999990418553ms DirectoryWatcher:: Added:: WatchInfo: /home/ap/ARYAN/WEB/my-app/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:49:15.220] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[20:49:15.221] Response has been sent.
+[20:49:15.221] No new typings were requested as a result of typings discovery

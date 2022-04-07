@@ -13,12 +13,6 @@ import IconButton from '@material-ui/core/IconButton';
 import {useState} from 'react';
 import './App.css'
 function App() {
-	const Div = styled('div')(({ theme }) => ({
-		...theme.typography.button,
-		backgroundColor: theme.palette.background.paper,
-		padding: theme.spacing(1),
-		fontSize: 30,
-	}));
 	const [work, setWork] = useState([
 	])
 	const [newWork, setNewWork] = useState('')

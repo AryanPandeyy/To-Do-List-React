@@ -3,14 +3,14 @@ import Button from '@material-ui/core/Button';
 import { styled } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import SendIcon from '@material-ui/icons/Send';
-import { Typography, AppBar, Card, CardActions, CardContent, CssBaseline, CardMedia, Toolbar, Grid, Container } from '@material-ui/core';
+import { Typography, AppBar, CssBaseline, Toolbar, Grid, Container } from '@material-ui/core';
 import { Work } from '@material-ui/icons';
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import CommentIcon from '@material-ui/icons/Comment';
 import IconButton from '@material-ui/core/IconButton';
-import { useEffect, useState } from 'react';
+import {useState} from 'react';
 import './App.css'
 function App() {
 	const Div = styled('div')(({ theme }) => ({

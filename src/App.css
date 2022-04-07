@@ -10,6 +10,8 @@
 	display: flex;
 	flex-shrink: 0;
     background:PapayaWhip;
+    text-align: center;
+    justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -107,7 +107,7 @@ function App() {
 					</Container>
 				</div>
 			</main>
-		<footer className='footer'>Created by Aryan with ❤</footer>
+		<footer className='footer'>Created by Aryan with ❤️</footer>
 		</>
 	);
 
